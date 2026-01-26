@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body{
-    border:10px solid rgb(228, 226, 226);
+    border:10px solid rgb(247, 245, 245);
     
 }
 html{
@@ -15,7 +15,7 @@ body{
 }
 .hero{
      min-height: 75vh;
-  background-color: #9c3f00;
+  background-color: #ebe8e6;
   color: white;
   text-align: center;
 }
@@ -35,7 +35,7 @@ body{
 
 /* HEADER */
 header{
-    background:#f8f8f8;
+    background:#e5e5fe;
     padding:15px 40px;
     display:flex;
     justify-content:space-between;
@@ -75,15 +75,35 @@ nav a:hover{
     justify-content:center;
     align-items:center;
     text-align:center;
+  
+    
+
+
+
+}
+.hero{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background:
+    linear-gradient(rgba(240,220,240,0.8), rgba(240,220,240,0.8)),
+    url("https://cdn.mgmtech.org/webp/static/mgmu.ac.in/assets/images/secure_q70.webp");
+
+  background-size: cover;
+  background-position: center;
 }
 h2{
     color:rgb(199, 199, 199);
-    font-size:36px;
-    margin-bottom:10px;
+    font-size:70px;
+    margin-bottom:20px;
 }
 p{
     color:white;
-    font-size:18px;
+    font-size:60px;
 }
 /* MENU BUTTON */
 .menu-btn{
@@ -121,11 +141,19 @@ footer{
 .menu-container{
     min-height: 100vh;
     width:100%;
-    background-color: #e2ccbe;
+    background-color: #f2fbf4;
     color: #333;
     display: flex;
     flex-direction: column;
+   
     
+}
+header{
+    background:#dbf1da;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 .menu-heading h1{
     font-size:48px;
@@ -176,7 +204,7 @@ h2{
 .about-container{
     max-width:900px;
     margin:50px auto;
-    background:rgb(239, 205, 236);
+    background:rgb(253, 199, 198);
     padding:40px;
     border-radius:12px;
 }
@@ -184,7 +212,7 @@ h2{
 
 /* CONTACT */
 header{
-    background:#fbe1f9;
+    background:#fea2f6;
     padding:15px 40px;
     display:flex;
     justify-content:space-between;
